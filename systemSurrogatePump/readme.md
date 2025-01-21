@@ -29,6 +29,8 @@
    * ```test_LF.ipynb``` : Load Follows Case (w/ SAM data).  
    * ```test_LF_wPump.ipynb``` : Load Follows Case (w/ SAM data) using system surrogate model with pump degradation surrogate model integrated.
 
+   These cases are compared with data generated with the [System Analysis Module (SAM)](https://www.anl.gov/nse/system-analysis-module)
+
 ## System Surrogate Model Prediction
 The ```systemSurrogate.predict()``` function runs the surrogate model for the user defined target power input. 
 
@@ -236,4 +238,4 @@ This repo uses two datasets:
 2. ```../data/gFHR-LF-15.csv``` : Load Follows Profile Case (Random Power Level Changes between 55% and 100%)
 
 ## Last Updated
-Last Updated: August 2, 2024  
+Last Updated: 01-21-2025
